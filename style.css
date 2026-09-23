@@ -1,0 +1,98 @@
+/*************************************************************
+    change Theme
+*************************************************************/
+
+/* body background color */
+.qp-header-img {
+	background-color: #FFF;
+}
+/* menu bg*/
+.navbar-default {
+	background-image: linear-gradient(to bottom, #7895CF 0%, #7895CF 100%);
+}
+/* menu brand */
+.navbar-default .navbar-brand {
+	color: #FFF;
+	font-size: 18px;
+}
+/* menu text color*/
+.navbar-default .navbar-nav>li>a {
+	color: #FFF;
+}
+/* header */
+.qp-header-main-text {
+	font-size: 18px;
+	color: #333;
+}
+
+.qp-link-header {
+	text-align: right;
+	color: #0033CC;
+}
+/* panel table form */
+.qp-table-form tr th {
+	border: 1px solid #CBCFED;
+	background-color: #eff5f9;
+}
+
+.qp-table-form tr th {
+	text-align: right;
+}
+/* panel table list */
+.qp-table-list thead tr th {
+	border: 1px solid #CBCFED;
+}
+
+.qp-table-list tbody tr td:first-child {
+	text-align: center;
+	width: 40px;
+}
+
+.qp-table-list tbody tr td:last-child {
+	text-align: center;
+	width: 40px;
+}
+
+.qp-table-list thead tr th {
+	text-align: left;
+}
+
+/* badge */
+.panel-default>.panel-heading .badge {
+	color: #333;
+	background-color: #FFFFFF;
+}
+/* footer */
+.qp-footer {
+	border-top: solid 1.5px #7895CF;
+}
+/* common */
+.btn-warning {
+	background-color: #eb9316;
+	color: #FFF;
+}
+
+.btn-warning:active, .btn-warning:hover, .btn-warning:focus {
+	background-color: #eb9316;
+	border-color: #eb9316;
+}
+
+.qp-button {
+	color: #FFF;
+	background-color: #5cb85c;
+}
+
+.qp-button:active, .qp-button:hover, .qp-button:focus {
+	color: #FFF;
+}
+
+.qp-link-button:hover, .qp-link-button:visited, .qp-link-button:active,
+	.qp-link-button:focus {
+	color: #FFF;
+}
+
+.pagination>.active>a {
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+	color: #FFF;
+}
